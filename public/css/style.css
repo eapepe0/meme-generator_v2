@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Karla, sans-serif;
+}
+/*  ########################
+    NAVBAR
+#######################
+*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(
+    32deg,
+    rgba(103, 34, 128, 1) 0%,
+    rgba(166, 38, 211, 1) 100%
+  );
+}
+.logo {
+  margin-left: 1rem;
+  width: 3rem;
+}
+
+.course {
+  margin-left: auto;
+  margin-right: 2rem;
+  font-family: Inter;
+  color: white;
+  font-size: 12px;
+}
+
+h1 {
+  margin-left: 1rem;
+  color: white;
+  font-size: 21px;
+}
+/* END NAVBAR */
+
+/* MAIN */
+.main {
+  padding: 2rem;
+}
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 15px;
+}
+
+.form--input {
+  font-family: Karla, sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.form--button {
+  grid-column: 1/-1;
+  font-family: Karla, sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* ########## CONTENEDOR IMAGEN ############### */
+
+.contenedor-imagen {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen {
+  max-width: 100%;
+}
