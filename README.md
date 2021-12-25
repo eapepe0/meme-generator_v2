@@ -1,2 +1,2 @@
 # meme-generator_v2
-Created with CodeSandbox
+![captura](https://i.imgur.com/ZELxKKs.png)
